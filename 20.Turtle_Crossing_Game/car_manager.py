@@ -27,7 +27,7 @@ class CarManager():
 
         # create the random distance between each car
         xcor = 260 + len(self.car_list) * DISTANCE_BETWEEN_CAR
-        car.setpos(xcor,random.randint(-300,300))
+        car.setpos(xcor,random.randint(-250,250))
         self.car_list.append(car)
 
     #car speed increases when turtle crosses the road
